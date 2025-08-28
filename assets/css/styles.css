@@ -5,12 +5,16 @@ Steel Blue	#4A6C82	Backgrounds, section dividers
 Moss Green	#6E8B3D	Secondary accents, icons	
 Cloud Grey	#E5E5E5	Backgrounds, cards, contrast elements	
 Pint Foam White	#FDFBF6	Hero sections, typography contrast
+
+Use bold sans-serif fonts for headers (e.g., Montserrat or Oswald) 
+and a clean, readable font for body text (e.g., Open Sans or Lato).
 */
 
+/* Global */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #4a6c82;
-    color: #2E2E2E;
+    color: #FDFBF6;
     margin: 0;
     padding: 0;
 }
@@ -18,20 +22,38 @@ body {
 h1,
 h2,
 h3 {
+    color: #FDFBF6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #E5E5E5;
     color: #2E2E2E;
-    /* Charcoal Slate */
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+} 
+
+/* Header - Hero image*/
+.talk-club-header {
+    margin-top: 32px;
 }
 
 .header-bg {
-    background-image:    linear-gradient(to bottom,
-                    rgba(128, 128, 128, 0.3), 
-                    rgba(64, 64, 64, 0.3)
-                ), url('../images/Banner_-_Talk_Club_grafitti.webp');
+    background-image: linear-gradient(to bottom,
+            rgba(128, 128, 128, 0.3),
+            rgba(64, 64, 64, 0.3)), url('../images/Banner_-_Talk_Club_grafitti.webp');
     background-size: cover;
     background-position: center;
     width: 100%;
     min-height: 300px;
-    position: relative;
+    /*position: relative;*/
 }
 
 .talk-club-header h1 {
@@ -44,4 +66,15 @@ h3 {
     color: #FDFBF6;
     font-size: 1.5em;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* Main sections */
+
+/* Footer */
+.footer {
+    background-color: #2E2E2E;
+    color: #FDFBF6;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 32px;
 }
