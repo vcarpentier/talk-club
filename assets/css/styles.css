@@ -73,7 +73,11 @@ h3 {
 #ben-akers-img {
     width: 80%;
     height: 80%;
+}
 
+#join-us {
+    padding: 40px 0;
+    margin-top: 32px;
 }
 
 /* Footer */
@@ -83,4 +87,13 @@ h3 {
     text-align: center;
     padding: 20px 0;
     margin-top: 32px;
+}
+
+.social-links a {
+    color: #FDFBF6;
+}
+
+.social-links a:hover {
+    color: #D98E04;
+    text-decoration: none;
 }
