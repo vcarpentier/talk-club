@@ -1,15 +1,3 @@
-/*
-Charcoal Slate	#2E2E2E	Primary text, headers, logo base	
-Ale Amber	#D98E04	Accent color, buttons, highlights	
-Steel Blue	#4A6C82	Backgrounds, section dividers	
-Moss Green	#6E8B3D	Secondary accents, icons	
-Cloud Grey	#E5E5E5	Backgrounds, cards, contrast elements	
-Pint Foam White	#FDFBF6	Hero sections, typography contrast
-
-Use bold sans-serif fonts for headers (e.g., Montserrat or Oswald) 
-and a clean, readable font for body text (e.g., Open Sans or Lato).
-*/
-
 /* Global */
 body {
     font-family: 'Lato', serif;
@@ -24,6 +12,16 @@ h2,
 h3 {
     color: #FDFBF6;
     font-family: "Montserrat", sans-serif;
+}
+
+a:hover {
+    color: #D98E04;
+    text-decoration: none;
+}
+
+a {
+    color: #FDFBF6;
+    text-decoration: underline;
 }
 
 /* Navbar */
@@ -88,6 +86,20 @@ h3 {
     color: #D98E04;
 }
 
+#meeting-times  td, #meeting-times th {
+    background-color: transparent !important;
+    color: #FDFBF6;
+}
+
+#whats-on-your-mind {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+#whats-on-your-mind h2
+{
+    margin-bottom: 20px;
+}
 #success {
     min-height: 350px;
 }
@@ -108,5 +120,4 @@ h3 {
 
 .social-links a:hover {
     color: #D98E04;
-
 }
