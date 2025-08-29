@@ -15,7 +15,7 @@
 ![responsiveness](docs/responsiveness.png)
 
 # Validation
-![responsiveness](docs/lighthouse.png)
+![Lighthouse results](docs/lighthouse.png)
 
 # Known issues
 - Navbar is too tall
