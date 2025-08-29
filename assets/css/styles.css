@@ -36,7 +36,7 @@ a {
 
 .logo {
     width: 50px;
-    height: 50  px;
+    height: 50 px;
 }
 
 /* Header - Hero image*/
@@ -86,7 +86,8 @@ a {
     color: #D98E04;
 }
 
-#meeting-times  td, #meeting-times th {
+#meeting-times td,
+#meeting-times th {
     background-color: transparent !important;
     color: #FDFBF6;
 }
@@ -96,10 +97,10 @@ a {
     margin-bottom: 32px;
 }
 
-#whats-on-your-mind h2
-{
+#whats-on-your-mind h2 {
     margin-bottom: 20px;
 }
+
 #success {
     min-height: 350px;
 }
@@ -120,4 +121,20 @@ a {
 
 .social-links a:hover {
     color: #D98E04;
+}
+
+/* Media Queries*/
+/* xtra small devices */
+@media screen and (max-width: 576px) {
+    .talk-club-header h1 {
+        color: #FDFBF6;
+        font-size: 2em;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .talk-club-header h2 {
+        color: #FDFBF6;
+        font-size: 1em;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    }
 }
