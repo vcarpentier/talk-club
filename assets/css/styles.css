@@ -88,6 +88,10 @@ h3 {
     color: #D98E04;
 }
 
+#success {
+    min-height: 350px;
+}
+
 /* Footer */
 .footer {
     background-color: #2E2E2E;
